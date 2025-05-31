@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 // 测试用的菜单处理函数
-Status test_handler()
+Status test_handler(void *context)
 {
     printf("测试选项被成功调用！\n");
     return STATUS_TRUE;
